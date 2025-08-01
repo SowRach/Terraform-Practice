@@ -1,4 +1,4 @@
-resource "aws_security_group" "roboshop-all" { # this is a terraform name for the reference only 
+resource "aws_security_group" "roboshop-all" { # this is a terraform name, its for the reference only 
   name        = var.sg-name # this is aws name
   description = var.sg-description
   #vpc_id      = aws_vpc.main.id
